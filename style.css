@@ -1,3 +1,7 @@
+*{
+overflow: none;
+}
+
 .navBar{
     display: flex;
     list-style-type: none;
