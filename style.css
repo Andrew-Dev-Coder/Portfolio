@@ -4,6 +4,8 @@ overflow: none;
 
 .navBar{
     display: flex;
+flex-wrap: nowrap;
+overflow-x: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
