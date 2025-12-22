@@ -6,10 +6,16 @@ overflow: none;
     display: flex;
 flex-wrap: nowrap;
 overflow-x: auto;
+white-space: nowrap;
+-webkit-overflow-scrolling: touch;
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #333333;
+}
+
+.navBar::-webkit-scrollbar{
+display: none;
 }
 
 .navLinks{
