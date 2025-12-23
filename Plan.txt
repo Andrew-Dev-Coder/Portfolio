@@ -1,9 +1,13 @@
 Home page -> index.html
+
 Projects -> Seperate page, grouped by language, link to skills
 Skills -> on a about me page? or skills page, link to projects
 About me -> seperate page, short
 Experience and education -> include future learn course and andriod development course
+
 Contact -> footer of each page
+
+Contact -> GitHub, Email, ORCID?, google dev profile?
 
 EXTRAS?:
 Blog/posts?
