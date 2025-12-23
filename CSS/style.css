@@ -72,6 +72,12 @@ footer a{
     align-items: center;
     color: white;
 }
+
+#copyEmail{
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
 /* END FOOTER STYLING*/
 
 /* START OF MAIN STYLING */
