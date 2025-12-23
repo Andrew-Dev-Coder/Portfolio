@@ -1,9 +1,18 @@
+/*
+This is the main CSS file that will be applied to all pages
+*/
+
+/*
+This removes the margin and padding for the HTML and body section.
+*/
 html, body{
     margin: 0;
     padding: 0;
-    overflow: auto;
 }
 
+/*
+This sets the navbar styling.
+*/
 .navBar{
     position: sticky;
     top: 0;
@@ -17,6 +26,9 @@ html, body{
     overflow: auto;
 }
 
+/*
+This sets the desgin for the navbar links
+*/
 .navLinks{
     display: block;
     color: white;
@@ -26,6 +38,9 @@ html, body{
     overflow: hidden;
 }
 
+/*
+These two make the current page highlted in the navbar.
+*/
 .navLinks[aria-current='page']{
     background-color: #00379E;
 }
@@ -33,6 +48,9 @@ html, body{
     background-color: #00379E;
 }
 
+/*
+This makes the backgorund change when one is hovered over by the user.
+*/
 .navLinks:hover{
     background-color: #111111;
 }
