@@ -7,6 +7,8 @@ Experience and education -> include future learn course and andriod development 
 
 Contact -> footer of each page
 
+Smallest size -320x568
+
 EXTRAS?:
 Blog/posts?
 CV download?
