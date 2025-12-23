@@ -6,12 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name ="author" content="Andrew">
-
-    <link rel="icon" type="image/svg+xml" href="/Images/Favicons/logo.svg">
-    <!--Backup icons in case .svg cannot be rendered-->
-    <link rel="icon" type="image/png" href="/Images/Favicons/logo.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/Images/Favicons/logo.png" sizes="16x16">
-    <link rel="icon" type="iamge/ico" href="/Images/Favicons/logo.ico">
+    {% include favicons.html %}
     <title>AI TRAINING</title>
 </head>
 <body>
@@ -33,23 +28,6 @@ without explicit prior written permission.
 
 This restriction does NOT apply to source code explicitly licensed
 under the MIT License or Apache License 2.0.
-<br>
-    <footer id="contactInfo">
-        <a href="mailto:contact@andrewcoder.dev">
-            <img class="contact contactIcon" src="/Images/Icons/email-8-svgrepo-com.svg" alt="A email icon">
-            <span class="contact">contact@andrewcoder.dev</span>
-        </a>
-        <a target="_blank" href="https://github.com/Andrew-Dev-Coder">
-            <img class="contact contactIcon" src="/Images/Icons/github-mark.svg" alt="The GitHub intervtocat logo">
-            <span class="contact">GitHub</span>
-        </a>
-        <a class="contact" target="_blank" href="https://g.dev/andrewcoderdev">Google Developer Profile</a>
-        <a class="contact" target="_blank" href="https://orcid.org/0009-0001-5411-1166">ORCID</a>
-        <div>
-            <a class="contact" target="_blank" href="https://github.com/Andrew-Dev-Coder/Portfolio">Source Code on GitHub</a>
-            <a class="contact" target="_blank" href="/Pages/OtherPages/LICENSE.html">License</a>
-            <a class="contact" target="_blank" href="/Pages/Licenses/AI-Training-Notice.html">AI Notice</a>
-        </div>
-    </footer>
+{% include footer.html %}
 </body>
 </html>
