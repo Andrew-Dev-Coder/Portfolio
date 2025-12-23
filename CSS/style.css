@@ -35,9 +35,7 @@ This is the main CSS file that will be applied to all pages
 .navLinks:hover{
     background-color: #111111;
 }
-/*
-END OF NAVBAR STYLING
-*/
+/* END OF NAVBAR STYLING */
 
 /* START OF FOOTER STYLING */
 footer{
@@ -75,6 +73,11 @@ footer a{
     color: white;
 }
 /* END FOOTER STYLING*/
+
+/* START OF MAIN STYLING */
+h1{
+    text-align: center;
+}
 
 /*
 This removes the margin and padding for the HTML and body section.
