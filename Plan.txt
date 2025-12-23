@@ -7,8 +7,6 @@ Experience and education -> include future learn course and andriod development 
 
 Contact -> footer of each page
 
-Contact -> GitHub, Email, ORCID?, google dev profile?
-
 EXTRAS?:
 Blog/posts?
 CV download?

@@ -54,3 +54,35 @@ This makes the backgorund change when one is hovered over by the user.
 .navLinks:hover{
     background-color: #111111;
 }
+
+footer{
+    bottom: 0;
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    left: 0;
+}
+footer a, footer a:visited, footer a:active{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    opacity: 0.85;
+}
+
+#emailIcon{
+    display: inline;
+    height: 1.15em;
+    width: 1.15em;
+    filter: invert() brightness(1.4);
+}
+
+.email{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    gap: 0.45em;
+}
