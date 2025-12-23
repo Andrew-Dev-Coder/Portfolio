@@ -81,6 +81,10 @@ footer a{
     filter: invert() brightness(1.4);
 }
 
+#GoogleIcon{
+    fill: white;
+}
+
 .contact{
     display: inline-flex;
     align-items: center;
