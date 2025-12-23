@@ -2,17 +2,7 @@
 This is the main CSS file that will be applied to all pages
 */
 
-/*
-This removes the margin and padding for the HTML and body section.
-*/
-html, body{
-    margin: 0;
-    padding: 0;
-}
-
-/*
-This sets the navbar styling.
-*/
+/* NAVBAR STYLING */
 .navBar{
     position: sticky;
     top: 0;
@@ -26,9 +16,6 @@ This sets the navbar styling.
     overflow: auto;
 }
 
-/*
-This sets the desgin for the navbar links
-*/
 .navLinks{
     display: block;
     color: white;
@@ -38,9 +25,6 @@ This sets the desgin for the navbar links
     overflow: hidden;
 }
 
-/*
-These two make the current page highlted in the navbar.
-*/
 .navLinks[aria-current='page']{
     background-color: #00379E;
 }
@@ -48,13 +32,14 @@ These two make the current page highlted in the navbar.
     background-color: #00379E;
 }
 
-/*
-This makes the backgorund change when one is hovered over by the user.
-*/
 .navLinks:hover{
     background-color: #111111;
 }
+/*
+END OF NAVBAR STYLING
+*/
 
+/* START OF FOOTER STYLING */
 footer{
     bottom: 0;
     background-color: #333333;
@@ -64,12 +49,15 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
 footer a, footer a:visited, footer a:active{
     text-decoration: none;
 }
+
 footer a:hover{
     opacity: 0.85;
 }
+
 footer a{
     padding: 0.45em;
 }
@@ -86,3 +74,13 @@ footer a{
     align-items: center;
     color: white;
 }
+/* END FOOTER STYLING*/
+
+/*
+This removes the margin and padding for the HTML and body section.
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+/* END STYLING */
