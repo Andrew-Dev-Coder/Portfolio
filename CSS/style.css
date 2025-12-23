@@ -79,6 +79,10 @@ h1{
     text-align: center;
 }
 
+.content p{
+    padding-left: 0.5em;
+}
+
 /*
 This removes the margin and padding for the HTML and body section.
 */
