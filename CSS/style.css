@@ -25,6 +25,12 @@ This is the main CSS file that will be applied to all pages
     overflow: hidden;
 }
 
+@media (max-width: 360px){
+    .navLinks{
+        padding: 10px 10px;
+    }
+}
+
 .navLinks[aria-current='page']{
     background-color: #00379E;
 }
