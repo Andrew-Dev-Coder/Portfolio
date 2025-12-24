@@ -109,4 +109,8 @@ h1{
     line-height: 1.75;
 }
 
+.link:hover{
+    opacity: 0.75;
+}
+
 /* END STYLING */
