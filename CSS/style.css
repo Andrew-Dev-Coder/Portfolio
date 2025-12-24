@@ -86,21 +86,26 @@ footer a{
 /* END FOOTER STYLING*/
 
 /* START OF MAIN STYLING */
-h1{
-    text-align: center;
-}
 
-.content p{
-    padding-left: 0.5em;
-}
-
-/*
-This removes the margin and padding for the HTML and body section.
-*/
+/* This removes the margin and padding for the HTML and body section. */
 html, body{
     margin: 0;
     padding: 0;
     background-color: #F3F6FA;
     color: black;
 }
+
+h1{
+    text-align: center;
+}
+
+/* HOME PAGE STYLING */
+.content p{
+    padding-left: 0.5em;
+}
+
+#firstSentence{
+    font-weight: bold;
+}
+
 /* END STYLING */
