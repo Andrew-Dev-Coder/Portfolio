@@ -101,11 +101,12 @@ h1{
 
 /* HOME PAGE STYLING */
 .content p{
+    line-height: 1.65;
     padding-left: 0.5em;
 }
 
 #firstSentence{
-    line-height: 1.3;
+    line-height: 1.75;
 }
 
 /* END STYLING */
