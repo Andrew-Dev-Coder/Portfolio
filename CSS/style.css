@@ -27,7 +27,7 @@ This is the main CSS file that will be applied to all pages
     text-decoration: none;
 }
 
-@media (max-width: 415px){
+@media (max-width: 430px){
     .navLinks{
         padding: 0.2em 0.2em;
     }
