@@ -1,26 +1,22 @@
-Home page -> index.html
-
 Projects -> Seperate page, grouped by language, link to skills
 Skills -> on a about me page? or skills page, link to projects
 About me -> seperate page, short
 Experience and education -> include future learn course and andriod development course
-
-Contact -> footer of each page
 
 Smallest size -320x568
 
 EXTRAS?:
 Blog/posts?
 CV download?
-Certifications?
+Certifications -> HTML, future learn course
 Hackathons/competitions -> future if I do any
 
 Displaying Projects:
 Link to GitHub repo
 Show CLEARLY if projects are made by me or part of a course
 
-Have flagship Website -> IT coursework?
-Have a flagship app  -> CS coursework?
+Have flagship Website -> IT coursework?, this one for now, shows frontenf
+Have a flagship app  -> CS coursework?, show full-stack
 
 Apps -> Have screenshots of apps in use
 Websites -> Link to site
