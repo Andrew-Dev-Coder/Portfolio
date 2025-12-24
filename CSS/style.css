@@ -20,9 +20,15 @@ This is the main CSS file that will be applied to all pages
     display: block;
     color: white;
     text-align: center;
-    padding: 14em 16em;
+    padding: 14px 16px;
     text-decoration: none;
     overflow: hidden;
+}
+
+@media (max-width: 360px){
+    .navLinks{
+        padding: 10px 10px;
+    }
 }
 
 .navLinks[aria-current='page']{
