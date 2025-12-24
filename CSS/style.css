@@ -34,6 +34,7 @@ This is the main CSS file that will be applied to all pages
 
 .navLinks:hover{
     background-color: #111111;
+    opacity: 0.85;
 }
 /* END OF NAVBAR STYLING */
 
