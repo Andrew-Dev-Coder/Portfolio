@@ -20,14 +20,14 @@ This is the main CSS file that will be applied to all pages
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.75em 1em;
     text-decoration: none;
     overflow: hidden;
 }
 
 @media (max-width: 360px){
     .navLinks{
-        padding: 10px 10px;
+        padding: 0.5em 0.75em;
     }
 }
 
