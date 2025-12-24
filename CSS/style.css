@@ -111,6 +111,7 @@ h1{
 
 .link:hover{
     opacity: 0.75;
+    text-decoration: none;
 }
 
 /* END STYLING */
