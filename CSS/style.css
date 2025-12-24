@@ -3,9 +3,12 @@ This is the main CSS file that will be applied to all pages
 */
 
 /* NAVBAR STYLING */
-.navBar{
+#navWrap{
     position: sticky;
     top: 0;
+}
+
+.navBar{
     display: flex;
     justify-content: center;
     width: 100%;
