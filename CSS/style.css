@@ -6,6 +6,7 @@ This is the main CSS file that will be applied to all pages
 #navWrap{
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .navBar{
