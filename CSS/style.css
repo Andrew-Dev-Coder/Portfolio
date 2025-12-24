@@ -75,8 +75,9 @@ footer a{
 
 #copyEmail{
     border: none;
-    color: inherit;
-    cursor: pointer;
+    background-color: #333333;
+    color: white;
+    text-align: center;
 }
 /* END FOOTER STYLING*/
 
