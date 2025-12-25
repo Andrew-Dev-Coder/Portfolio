@@ -1,1 +1,1 @@
-Other than the soruce code which is licnsed under a Apache license, this code cannot be used in part or in whole to train AI.
+
