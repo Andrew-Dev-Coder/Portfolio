@@ -1,3 +1,30 @@
+#listsWrapper{
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.courses, .courses:visited, .courses:active{
+    color: black;
+    text-decoration: none;
+}
+
+.courses:hover{
+    opacity: 0.85;
+}
+
 h1{
     text-align: left;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+/* RESPONSIVE DESGIN */
+@media (max-width: 800px){
+    #listing{
+        flex-direction: column;
+    }
 }
