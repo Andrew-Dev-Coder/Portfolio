@@ -7,7 +7,12 @@
 }
 
 .education{
+    flex: 1;
     border-right: 0.5em black solid;
+}
+
+#current, #previous{
+    flex: 2;
 }
 
 .education:last-child{
@@ -34,7 +39,7 @@ ul{
 }
 
 /* RESPONSIVE DESGIN */
-@media (max-width: 830px){
+@media (max-width: 700px){
     #listsWrapper{
         flex-direction: column;
         border: 0;
@@ -43,6 +48,11 @@ ul{
     .education{
         border-right: 0;
         border-bottom: 0.3em black solid;
+        flex: 1;
+    }
+
+    #current, #previous{
+        flex: 1;
     }
 
     .education:last-child{
