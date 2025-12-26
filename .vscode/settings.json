@@ -1,6 +1,0 @@
-{
-    "editor.aiStats.enabled": true,
-    "editor.autoClosingBrackets": "always",
-    "editor.autoClosingComments": "languageDefined",
-    "files.autoSave": "onFocusChange"
-}
