@@ -11,7 +11,7 @@
     {% include navbar.html %}
     <!-- START WRAPPER -->
     <div id="listsWrapper">
-    <!-- START PREVIOUS -->
+        <!-- START PREVIOUS -->
         <section class="education" id="Previous">
             <h1>Previous</h1>
             <ul>
@@ -23,11 +23,11 @@
                 <li>GCSE: <em>French</em> </li>
                 <li>GCSE: <em>Geography</em> </li>
                 <li>GCSE: <em>History</em> </li>
-                <li> <a class="coursesLink" href="">FurtureLearn: <em>A Beginner’s Guide to Web Development with HTML5</em> </a> </li>
+                <li> <a class="coursesLink" href="#FutureLearn">FutureLearn: <em>A Beginner’s Guide to Web Development with HTML5</em> </a> </li>
             </ul>
         </section>
-    <!-- END PREVIOUS -->
-    <!-- START CURRENT-->
+        <!-- END PREVIOUS -->
+        <!-- START CURRENT-->
         <section class="education" id="Current">
             <h1>Current</h1>
             <ul>
@@ -35,26 +35,26 @@
                 <li> BETC: <em>Infomation Technology</em> </li>
                 <li> BETC: <em>Uniformed Protective Services</em> </li>
                 <li> <a class="coursesLink" href="#androidDevelopment"> Android Development: <em>Andriod basics with compose</em> </a> </li>
-            </ui>
+                </ui>
         </section>
-    <!-- END CURRENT -->
-    <!-- START PLANNED-->
+        <!-- END CURRENT -->
+        <!-- START PLANNED-->
         <section class="education" id="Planned">
             <h1>Planned Future</h1>
             <span>I currently have no applications being processed but hope to continue education in University.</span>
         </section>
-    <!-- END PLANNED -->
-    <!-- START CONFIRMED-->
+        <!-- END PLANNED -->
+        <!-- START CONFIRMED-->
         <section class="education" id="Confirmed">
             <h1>Confirmed Future</h1>
             <span>I currently have no accepted applications for future education.</span>
         </section>
-    <!-- END CONFIRMED -->
+        <!-- END CONFIRMED -->
     </div>
     <!-- END WRAPPER -->
     <!-- START DETAILs -->
     <div id="detailsWrapper">
-    <!-- START ANDRIOD DEVELOPMENT -->
+        <!-- START ANDRIOD DEVELOPMENT -->
         <article id="androidDevelopment" class="courseArticle">
             <h3>Android Development</h3>
             <p class="coursePharagraph">
@@ -65,7 +65,19 @@
                 I am currently doing <em>Andriod Basics with Compose</em>.
             </p>
         </article>
-    <!-- END ANDRIOD DEVELOPMENT-->
+        <!-- END ANDRIOD DEVELOPMENT-->
+        <!-- START FUTURELEARN -->
+        <article id="FutureLearn" class="courseArticle">
+            <h3>FutureLearn</h3>
+            <p class="coursePharagraph">
+                I have done the FutureLearn couse: <em>A Beginner’s guide to Web Development with HTML5</em>
+                <br>
+                Which can be found <a target="_blank" href="https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5">here</a>.
+                <br>
+                This course introduced me to the basics of HTML 5 which I have used to develop this website.
+            </p>
+        </article>
+        <!-- END FUTURELEARN -->
     </div>
     <!-- END DETAILs -->
     {% include footer.html %}
