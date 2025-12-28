@@ -11,19 +11,15 @@
     border-right: 0.5em black solid;
 }
 
-#current, #previous{
-    flex: 2;
-}
-
 .education:last-child{
     border: 0;
 }
 
-.courses, .courses:visited, .courses:active{
+.coursesLink, .coursesLink:visited, .coursesLink:active{
     color: black;
 }
 
-.courses:hover{
+.coursesLink:hover{
     opacity: 0.85;
 }
 
@@ -47,10 +43,6 @@ ul{
     .education{
         border-right: 0;
         border-bottom: 0.3em black solid;
-        flex: 1;
-    }
-
-    #current, #previous{
         flex: 1;
     }
 
