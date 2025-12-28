@@ -12,10 +12,10 @@
     <!-- START WRAPPER -->
     <div id="listsWrapper">
     <!-- START PREVIOUS -->
-        <div class="education" id="Previous">
+        <section class="education" id="Previous">
             <h1>Previous</h1>
             <ul>
-                <li> <a class="courses" href=""> GCSE: <em>Computer Science</em> </a> </li>
+                <li> GCSE: <em>Computer Science</em></li>
                 <li>GCSE: <em>Combined Science</em> </li>
                 <li>GCSE: <em>Mathematics</em> </li>
                 <li>GCSE: <em>English Literature</em> </lil>
@@ -23,35 +23,51 @@
                 <li>GCSE: <em>French</em> </li>
                 <li>GCSE: <em>Geography</em> </li>
                 <li>GCSE: <em>History</em> </li>
-                <li> <a class="courses" href="">FurtureLearn: <em>A Beginner’s Guide to Web Development with HTML5</em> </a> </li>
+                <li> <a class="coursesLink" href="">FurtureLearn: <em>A Beginner’s Guide to Web Development with HTML5</em> </a> </li>
             </ul>
-        </div>
+        </section>
     <!-- END PREVIOUS -->
     <!-- START CURRENT-->
-        <div class="education" id="Current">
+        <section class="education" id="Current">
             <h1>Current</h1>
             <ul>
-                <li> <a class="courses" href=""> A-Level: <em>Computer Science</em> </a> </li>
-                <li> <a class="courses" href=""> BETC: <em>Infomation Technology</em> </a>  </li>
+                <li> A-Level: <em>Computer Science</em> </li>
+                <li> BETC: <em>Infomation Technology</em> </li>
                 <li> BETC: <em>Uniformed Protective Services</em> </li>
-                <li> <a class="courses" href=""> Android Development: <em>Andriod basics with compose</em> </a> </li>
+                <li> <a class="coursesLink" href="#androidDevelopment"> Android Development: <em>Andriod basics with compose</em> </a> </li>
             </ui>
-        </div>
+        </section>
     <!-- END CURRENT -->
     <!-- START PLANNED-->
-        <div class="education" id="planned">
+        <section class="education" id="Planned">
             <h1>Planned Future</h1>
             <span>I currently have no applications being processed but hope to continue education in University.</span>
-        </div>
+        </section>
     <!-- END PLANNED -->
     <!-- START CONFIRMED-->
-        <div class="education" id="confirmed">
+        <section class="education" id="Confirmed">
             <h1>Confirmed Future</h1>
             <span>I currently have no accepted applications for future education.</span>
-        </div>
+        </section>
     <!-- END CONFIRMED -->
     </div>
     <!-- END WRAPPER -->
+    <!-- START DETAILs -->
+    <div id="detailsWrapper">
+    <!-- START ANDRIOD DEVELOPMENT -->
+        <article id="androidDevelopment" class="courseArticle">
+            <h3>Android Development</h3>
+            <p class="coursePharagraph">
+                I am learning Andriod Development through Google's offical developer program.
+                <br>
+                Which can be found <a target="_blank" href="https://developer.android.com/courses">here</a>.
+                <br>
+                I am currently doing <em>Andriod Basics with Compose</em>.
+            </p>
+        </article>
+    <!-- END ANDRIOD DEVELOPMENT-->
+    </div>
+    <!-- END DETAILs -->
     {% include footer.html %}
 </body>
 </html>
