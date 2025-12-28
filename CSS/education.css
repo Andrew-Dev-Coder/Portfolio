@@ -21,7 +21,6 @@
 
 .courses, .courses:visited, .courses:active{
     color: black;
-    text-decoration: none;
 }
 
 .courses:hover{
