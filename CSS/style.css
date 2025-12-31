@@ -122,4 +122,31 @@ h1{
     text-decoration: none;
 }
 
+.wrapper{
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    align-items: stretch;
+}
+
+.about{
+    flex: 1;
+    border-right: 0.5em solid black;
+}
+
+.about:last-child{
+    border: 0;
+}
+
+@media (max-width: 700px){
+    .wrapper{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about{
+        border-right: 0;
+        border-bottom: 0.5em solid black;
+    }
+}
 /* END STYLING */
