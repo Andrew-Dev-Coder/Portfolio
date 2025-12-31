@@ -97,8 +97,6 @@ footer a{
 
 /* START OF MAIN STYLING */
 
-/* START ALL PAGES STYLING */
-
 html, body{
     margin: 0;
     padding: 0;
@@ -109,10 +107,6 @@ html, body{
 h1{
     text-align: center;
 }
-
-/* END ALL PAGES STYLING */
-
-/* HOME PAGE STYLING */
 
 .content p{
     line-height: 1.65;
@@ -127,7 +121,5 @@ h1{
     opacity: 0.75;
     text-decoration: none;
 }
-
-/* END HOME PAGE STYLING */
 
 /* END STYLING */
