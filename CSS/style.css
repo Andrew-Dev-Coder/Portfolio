@@ -102,6 +102,7 @@ html, body{
     padding: 0;
     background-color: #F3F6FA;
     color: black;
+    overflow-x: hidden;
 }
 
 h1{
@@ -127,6 +128,15 @@ h1{
     gap: 2rem;
     align-items: flex-start;
     align-items: stretch;
+    border-bottom: 0.5em solid black;
+}
+
+.wrapper:last-child{
+    border: none;
+}
+
+#wrapper--last{
+    border: none;
 }
 
 .about{
@@ -136,6 +146,10 @@ h1{
 
 .about:last-child{
     border: 0;
+}
+
+hr{
+    background-color: black; /* Marginally improves contrast */ 
 }
 
 @media (max-width: 700px){
