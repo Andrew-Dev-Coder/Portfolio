@@ -7,13 +7,60 @@
 </head>
 <body>
     {% include navbar.html %}
-    <!-- START WRAPPER-->
-    <div class="wrapper" id="aboutWrapper">
+    <!-- START WRAPPER  -->
+    <div class="wrapper">
         <!-- START DEVELOPMENT JOURNEY -->
         <section class="about">
             <h2>My Development journey</h2>
-            <p>
-            </p>
+            <article id="primary">
+                <h3>Primary</h3>
+                <p>
+                    I had a small interest in electronic circuits but had only done a little bit of block coding using
+                    Scratch.
+                </p>
+            </article>
+            <article id="secondary">
+                <h3>Secondary</h3>
+                <!-- START of Secondary intro -->
+                <article>
+                    <time datetime="2021">2021:</time>
+                    <span>I start Secondary School (Year 7 and 8)</span>
+                    <p>
+                        This was the first time i was introduced to programming fully, by this time I was not using Scratch
+                        but had forgotten most of it.
+                        Due to my special neededs I was placed in a special needs class for creatives, due to this I did very little coding and when we did it was using tykiner block coding.
+                    </p>
+                    <hr>
+                </article>
+                <!-- END of Secondary intro -->
+                <!-- START of GCSEs-->
+                <article>
+                    <time datetime="2022">2022:</time>
+                    <span>I start my GCSEs (Year 9)</span>
+                    <p>
+                        My school started GCSEs in year 9. My school made everyone do a langauge, and history or Geography which left me with two options to freely pick from.
+                        I was certain on doing History and Geography which left with one choice, seeing as I had my interest in electronic circuits I choose to do Computer Science as my other option.
+                        Once the Computer Science course has started I was a fair bit behind the rest of the class but I did replit's course on an introduction to programming with Python, this helped me to catch up with everyone else, by Christmas I was one of the best in the class.
+                        I did not end up completeing the replit course but in lessons we were doing Python work anyway so once I had caught up, I was able to do the challenges set by my teachers well.
+                    </p>
+                    <hr>
+
+                    <time datetime="2022-2023">2022 to 2023:</time>
+                    <span>I do my GCSEs (Year 9 to year 10)</span>
+                    <p>
+                        We carried on to do Python work all the way through year 10.
+                    </p>
+                    <hr>
+
+                    <time datetime="2024">2024</time>
+                    <span>Final year of GCSEs (Year 10 and 11)</span>
+                    <p>
+                        Towards the end of year 10 and the start of year 11, is when we started the theory side of Computer Science.
+                        We still did regular coding alongside the theory.
+                    </p>
+                </article>
+                <!-- END of GCSEs -->
+            </article>
         </section>
         <!-- END DEVELOPMENT JOURNEY-->
         <!-- START MY APPROACH-->
@@ -23,11 +70,15 @@
             </p>
         </section>
         <!-- END MY APPROACH-->
+    </div>
+    <!-- END WRAPPER -->
+    <!-- START WRAPPER -->
+    <div class="wrapper" id="wrapper--last">
         <!-- START PLANNED DIRECTION-->
         <section class="about">
             <h2>My planned direction</h2>
             <p>
-                I am planning to go to university after Sixth Form. 
+                I am planning to go to university after Sixth Form.
                 After university, I plan to get a job in the computer industry as a full-stack software engineer.
             </p>
         </section>
@@ -44,8 +95,8 @@
             </ul>
         </section>
         <!-- END OTHER INTERESTS -->
+        <!-- END WRAPPER -->
     </div>
-    <!-- END WRAPPER -->
     {% include footer.html %}
 </body>
 </html>
