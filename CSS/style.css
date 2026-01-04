@@ -97,22 +97,17 @@ footer a{
 
 /* START OF MAIN STYLING */
 
-/* START ALL PAGES STYLING */
-
 html, body{
     margin: 0;
     padding: 0;
     background-color: #F3F6FA;
     color: black;
+    overflow-x: hidden;
 }
 
 h1{
     text-align: center;
 }
-
-/* END ALL PAGES STYLING */
-
-/* HOME PAGE STYLING */
 
 .content p{
     line-height: 1.65;
@@ -128,6 +123,44 @@ h1{
     text-decoration: none;
 }
 
-/* END HOME PAGE STYLING */
+.wrapper{
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    align-items: stretch;
+    border-bottom: 0.5em solid black;
+}
 
+.wrapper:last-child{
+    border: none;
+}
+
+#wrapper--last{
+    border: none;
+}
+
+.about{
+    flex: 1;
+    border-right: 0.5em solid black;
+}
+
+.about:last-child{
+    border: 0;
+}
+
+hr{
+    background-color: black; /* Marginally improves contrast */ 
+}
+
+@media (max-width: 700px){
+    .wrapper{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about{
+        border-right: 0;
+        border-bottom: 0.5em solid black;
+    }
+}
 /* END STYLING */
