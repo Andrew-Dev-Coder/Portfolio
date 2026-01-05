@@ -97,6 +97,7 @@ footer a{
 
 /* START OF MAIN STYLING */
 
+/* START ALL ELEMENTS */
 html, body{
     margin: 0;
     padding: 0;
@@ -114,6 +115,16 @@ h4{
     margin: 0;
 }
 
+p{
+    line-height: 1.45;
+}
+
+hr{
+    background-color: black; /* Marginally improves contrast */ 
+}
+/* END ALL ELEMENTS */
+
+/* START CLASSES AND IDs*/
 .content p{
     line-height: 1.65;
     padding-left: 0.5em;
@@ -136,27 +147,21 @@ h4{
     border-bottom: 0.5em solid black;
 }
 
-.wrapper:last-child{
-    border: none;
-}
-
 #wrapper--last{
     border: none;
 }
 
-.about{
+.wrapper section{
     flex: 1;
     border-right: 0.5em solid black;
 }
 
-.about:last-child{
+.wrapper section:last-child{
     border: 0;
 }
+/* END CLASSES AND IDs*/
 
-hr{
-    background-color: black; /* Marginally improves contrast */ 
-}
-
+/* START RESPONSIVE */
 @media (max-width: 700px){
     .wrapper{
         flex-direction: column;
@@ -168,4 +173,5 @@ hr{
         border-bottom: 0.5em solid black;
     }
 }
+/* END RESPONSIVE */
 /* END STYLING */
