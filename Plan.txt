@@ -1,1 +1,0 @@
-Smallest supported size -320x568
