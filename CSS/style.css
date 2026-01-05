@@ -168,7 +168,7 @@ hr{
         gap: 1rem;
     }
 
-    .about{
+    .wrapper section{
         border-right: 0;
         border-bottom: 0.5em solid black;
     }
