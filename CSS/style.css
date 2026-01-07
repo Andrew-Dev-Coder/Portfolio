@@ -122,6 +122,12 @@ p{
 hr{
     background-color: black; /* Marginally improves contrast */ 
 }
+
+ul{
+    padding: 1em;
+    list-style-type: disc;
+    list-style-position: outside;
+}
 /* END ALL ELEMENTS */
 
 /* START CLASSES AND IDs*/
