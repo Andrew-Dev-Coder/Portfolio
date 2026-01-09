@@ -13,14 +13,6 @@
     border: 0;
 }
 
-.coursesLink, .coursesLink:visited, .coursesLink:active{
-    color: black;
-}
-
-.coursesLink:hover{
-    opacity: 0.85;
-}
-
 h1{
     text-align: left;
 }

@@ -161,6 +161,14 @@ ul{
 .wrapper section:last-child{
     border: 0;
 }
+
+.internalLink, .internalLink:visited, .internalLink:active{
+    color: black;
+}
+
+.internalLink:hover{
+    opacity: 0.85;
+}
 /* END CLASSES AND IDs*/
 
 /* START RESPONSIVE */
