@@ -3,3 +3,5 @@ _site
 .vscode
 Gemfile.lock
 Gemfile
+.bundle
+vendor
