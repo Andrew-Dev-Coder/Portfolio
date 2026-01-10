@@ -21,7 +21,7 @@
             {% endfor %}
         </ul>
     {% endif %}
-    
+
     {% if page.github_link %}
         <span>
             This project can be seen on GitHub, <a href="{{ page.github_link }}" target="_blank">here</a>.
@@ -31,9 +31,10 @@
 
     {% if page.type == "website" %}
         <span>
-            The webiste can be found, <a href="{{ page.site }}" target="_blank">here</a>.
+            The website can be found, <a href="{{ page.site }}" target="_blank">here</a>.
         </span>
     {% endif %}
+
     {% include footer.html %}
 </body>
 </html>
