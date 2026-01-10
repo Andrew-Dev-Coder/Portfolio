@@ -1,0 +1,5 @@
+# Collections Setup
+collections:
+  projects:
+    output: true
+      permalink: /projects/:name
