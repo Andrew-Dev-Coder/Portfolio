@@ -4,9 +4,17 @@
 <html lang="en">
 <head>
     {% include head.html %}
+    <link rel="stylesheet" href="/CSS/projects.css">
 </head>
 <body>
     {% include navbar.html %}
+
+    <nav>
+        <ul class="breadcrumbs">
+            <li class="breadItem"><a href="http://127.0.0.1:4000/Overview/Projects/">Overview</a> > </li>
+            <li class="breadItem">{{ page.page_title }}</li>
+        </ul>
+    </nav>
 
     <h1>{{ page.page_title }}</h1>
 
@@ -15,7 +23,8 @@
     {% endif %}
 
     {% if page.stack %}
-        <ul>
+        <h2 id="stack">Applied Skills</h2>
+        <ul id="stackList">
             {% for item in page.stack %}
             <li>{{ item }}</li>
             {% endfor %}
