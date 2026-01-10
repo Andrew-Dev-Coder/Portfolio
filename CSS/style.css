@@ -184,6 +184,15 @@ a:hover{
 .internalLink:hover{
     opacity: 0.85;
 }
+
+#stack {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#stackList{
+    padding-top: 0;
+}
 /* END CLASSES AND IDs*/
 
 /* START RESPONSIVE */
