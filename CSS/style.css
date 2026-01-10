@@ -43,7 +43,7 @@ This is the main CSS file that will be applied to all pages
 
 .navLinks:hover{
     background-color: #111111;
-    opacity: 0.85;
+    opacity: 0.8;
 }
 /* END OF NAVBAR STYLING */
 
@@ -123,6 +123,10 @@ ul{
     padding: 1em;
     list-style-type: disc;
     list-style-position: outside;
+}
+
+a:hover{
+    opacity: 0.8;
 }
 /* END ALL ELEMENTS */
 
