@@ -1,3 +1,10 @@
+# Ensure correct url
+url: "https://www.andrewcoder.dev"
+
+# Plugins
+plugins:
+  -jekyll-sitemap
+
 # Collections Setup
 collections:
   projects:
