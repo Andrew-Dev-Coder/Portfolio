@@ -9,3 +9,5 @@ Disallow: /
 
 User-agent: *
 Allow: /
+
+sitemap: https://www.andrewcoder.dev/sitemap.xml
