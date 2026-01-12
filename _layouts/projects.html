@@ -28,26 +28,26 @@
         <h2 id="stack">Applied Skills</h2>
         <ul id="stackList">
             {% for item in page.stack %}
-            <li>{{ item }}</li>
+            <li> {% if item == 'Visual Studio Code' %} {{ '<img class="logo" src="/Images/Icons/vscode.svg" alt="">' }} {% endif %}  {{ item }}</li>
             {% endfor %}
         </ul>
-        <hr>
     {% endif %}
 
     {% if page.github_link %}
+        <hr>
         <h2>Source Code</h2>
         <span>
             The projects source code is available on <a href="{{ page.github_link }}" target="_blank">GitHub</a>.
         </span>
         <br>
-        <hr>
     {% endif %}
 
     {% if page.type == "website" %}
+        <hr>
+        <h2>Website</h2>
         <span>
             The website can be found, <a href="{{ page.site }}" target="_blank">here</a>.
         </span>
-        <hr>
     {% endif %}
 
     <main>
