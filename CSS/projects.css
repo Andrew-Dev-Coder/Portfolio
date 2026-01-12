@@ -10,7 +10,6 @@
 
 .breadItem a{
     color: black;
-    text-decoration: none;
 }
 
 .logo{
@@ -26,8 +25,4 @@
 
 .wrapper section{
     border: 0;
-}
-
-#currentPage{
-    text-decoration: underline;
 }
