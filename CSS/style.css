@@ -136,10 +136,6 @@ a:hover{
     padding-left: 0.5em;
 }
 
-#firstSentence{
-    line-height: 1.75;
-}
-
 .link:hover{
     opacity: 0.75;
     text-decoration: none;
@@ -183,6 +179,10 @@ a:hover{
 
 .internalLink:hover{
     opacity: 0.85;
+}
+
+#firstSentence{
+    line-height: 1.75;
 }
 
 #stack {
