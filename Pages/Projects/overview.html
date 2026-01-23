@@ -13,7 +13,7 @@ permalink: /Overview/Projects/
         <h1>Projects</h1>
         <ul>
             {% for project in site.projects %}
-            <li><a href="{{ project.url }}"> {{ project.page_title }} </a></li>
+            <li><a class="projectLink" href="{{ project.url }}"> {{ project.page_title }} </a></li>
             {% endfor %}
         </ul>
         <h2>Flagship Projects</h2>
