@@ -93,6 +93,15 @@ footer a{
 #copyEmail:hover{
     opacity: 0.85;
 }
+
+@media (max-width: 450){
+    footer a, .contact, #copyEmail{
+        width: 24px;
+        height: 24px;
+        padding: 24px;
+    }
+}
+
 /* END FOOTER STYLING*/
 
 /* START OF MAIN STYLING */
