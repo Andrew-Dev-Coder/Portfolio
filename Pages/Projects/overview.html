@@ -9,16 +9,18 @@ permalink: /Overview/Projects/
 </head>
 <body>
     {% include navbar.html %}
-    <h1>Projects</h1>
-    <ul>
-        {% for project in site.projects %}
-        <li><a href="{{ project.url }}"> {{ project.page_title }} </a></li>
-        {% endfor %}
-    </ul>
-    <h2>Flagship Projects</h2>
-    <p>
-        This is website is currently my flagship project as all of my other projects are on a smaller scale.
-    </p>
+    <main>
+        <h1>Projects</h1>
+        <ul>
+            {% for project in site.projects %}
+            <li><a href="{{ project.url }}"> {{ project.page_title }} </a></li>
+            {% endfor %}
+        </ul>
+        <h2>Flagship Projects</h2>
+        <p>
+            This is website is currently my flagship project as all of my other projects are on a smaller scale.
+        </p>
+    </main>
     {% include footer.html %}
 
 </body>
