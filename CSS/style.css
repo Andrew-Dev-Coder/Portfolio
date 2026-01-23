@@ -186,6 +186,10 @@ a:hover{
     color: black;
 }
 
+.internalLink{
+    font-size: 1.25em;
+}
+
 .internalLink:hover{
     opacity: 0.85;
 }
