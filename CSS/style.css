@@ -199,6 +199,10 @@ a:hover{
     height: 100%;
 }
 
+.projectLink{
+    font-size: 1.25em;
+}
+
 #firstSentence{
     line-height: 1.75;
 }
