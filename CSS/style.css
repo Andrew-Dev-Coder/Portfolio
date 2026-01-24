@@ -124,8 +124,12 @@ p{
     line-height: 1.45;
 }
 
-p, span{
-    font-size: 1.25em;
+p, span, .internalLink{
+    font-size: 1.19em;
+}
+
+button, .contact, footer, .navLinks{
+    font-size: 1.025em
 }
 
 hr{
@@ -188,10 +192,6 @@ a:hover{
 
 .internalLink, .internalLink:visited, .internalLink:active{
     color: black;
-}
-
-.internalLink{
-    font-size: 1.25em;
 }
 
 .internalLink:hover{
