@@ -28,7 +28,7 @@
         <h2 id="stack">Applied Skills</h2>
         <ul id="stackList">
             {% for item in page.stack %}
-            <li> {% if item == 'Visual Studio Code' %} {{ '<img class="logo" src="/Images/Icons/vscode.svg" alt="">' }} {% endif %}  {{ item }}</li>
+            <li> {% if item == 'Visual Studio Code' %} {{ '<img loading="lazy" class="logo" src="/Images/Icons/vscode.svg" alt="">' }} {% endif %}  {{ item }}</li>
             {% endfor %}
         </ul>
     {% endif %}
