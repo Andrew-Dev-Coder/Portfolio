@@ -1,5 +1,5 @@
 # Portfolio
-This is a website that will have my personal portfolio on.
+This is a website that will has my personal portfolio on.
 
 # Licensing Summary
 - Source code: Apache License
