@@ -45,7 +45,6 @@ This is the main CSS file that will be applied to all pages
     background-color: #111111;
     opacity: 0.8;
 }
-/* END OF NAVBAR STYLING */
 
 /* START OF FOOTER STYLING */
 footer{
@@ -90,10 +89,6 @@ footer a{
         padding: 24px;
     }
 }
-
-/* END FOOTER STYLING*/
-
-/* START OF MAIN STYLING */
 
 /* START ALL ELEMENTS */
 html, body{
@@ -239,6 +234,10 @@ a:hover{
     .education:last-child{
         border-bottom: 0.3em black solid;
         border-right: 0;
+    }
+
+    footer section a {
+        display: block;
     }
 }
 /* END RESPONSIVE */
