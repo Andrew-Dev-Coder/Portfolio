@@ -93,7 +93,7 @@ footer a{
 /* START ALL ELEMENTS */
 html, body{
     margin: 0;
-    padding: 0;
+    padding: 0 0.1em;
     background-color: #F3F6FA;
     color: black;
     overflow-x: hidden;
@@ -240,6 +240,6 @@ a:hover{
 
     html, body {
         margin: 0;
-        padding: 0.1em;
+        padding: 0 0.1em;
     }
 }
