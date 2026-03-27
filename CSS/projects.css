@@ -27,3 +27,7 @@
 .wrapper section{
     border: 0;
 }
+
+.versionLabel {
+    text-decoration: underline;
+}
