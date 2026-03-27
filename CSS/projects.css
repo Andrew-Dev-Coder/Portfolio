@@ -42,3 +42,10 @@
     min-height: 25%;
     display: block;
 }
+
+.screenshots {
+    max-width: 25%;
+    max-height: 25%;
+    min-height: 10%;
+    min-width: 10%;
+}
