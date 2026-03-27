@@ -237,4 +237,9 @@ a:hover{
     footer section a {
         display: block;
     }
+
+    html, body {
+        margin: 0;
+        padding: 0.1em;
+    }
 }
