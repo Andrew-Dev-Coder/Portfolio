@@ -1,3 +1,5 @@
+/* CSS FOR PROJECT PAGES */
+
 .breadcrumbs{
     list-style-type: none;
     padding: 0;
@@ -26,4 +28,24 @@
 
 .wrapper section{
     border: 0;
+}
+
+.versionLabel {
+    text-decoration: underline;
+}
+
+#silly {
+    padding-top: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 25%;
+    min-height: 25%;
+    display: block;
+}
+
+.screenshots {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 25%;
+    min-width: 25%;
 }

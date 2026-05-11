@@ -93,7 +93,7 @@ footer a{
 /* START ALL ELEMENTS */
 html, body{
     margin: 0;
-    padding: 0;
+    padding: 0 0.1em;
     background-color: #F3F6FA;
     color: black;
     overflow-x: hidden;
@@ -129,7 +129,6 @@ ul{
 a:hover{
     opacity: 0.8;
 }
-/* END ALL ELEMENTS */
 
 /* START CLASSES AND IDs*/
 .content p{
@@ -199,7 +198,6 @@ a:hover{
 #stackList{
     padding-top: 0;
 }
-/* END CLASSES AND IDs*/
 
 /* START RESPONSIVE */
 @media (max-width: 700px){
@@ -239,6 +237,9 @@ a:hover{
     footer section a {
         display: block;
     }
+
+    html, body {
+        margin: 0;
+        padding: 0 0.1em;
+    }
 }
-/* END RESPONSIVE */
-/* END STYLING */
