@@ -45,11 +45,13 @@
     {% endif %}
 
     {% if page.type == "website" %}
+    {% if page.site %}
         <hr>
         <h2>Website</h2>
         <span>
             The website can be found, <a href="{{ page.site }}" target="_blank">here</a>.
         </span>
+    {% endif %}
     {% endif %}
 
     <hr>
