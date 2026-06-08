@@ -12,7 +12,7 @@
     <nav>
         <ul class="breadcrumbs">
             <li class="breadItem">You are here: </li>
-            <li class="breadItem"><a class="breadLink" href="/Overview/Projects/">Projects</a> > </li>
+            <li class="breadItem"><a class="breadLink" href="/overview/projects/">Projects</a> > </li>
             <li class="breadItem">{{ page.page_title }}</li>
         </ul>
     </nav>
@@ -28,7 +28,7 @@
         <h2 id="stack">Applied Skills</h2>
         <ul id="stackList">
             {% for item in page.stack %}
-            <li> {% if item == 'Visual Studio Code' %} {{ '<img loading="lazy" class="logo" src="/Images/Icons/vscode.svg" alt="">' }} {% endif %}  {{ item }}</li>
+            <li> {% if item == 'Visual Studio Code' %} {{ '<img loading="lazy" class="logo" src="/Images/Icons/vscode.svg" alt="Visual studo code logo">' }} {% endif %}  {{ item }}</li>
             {% endfor %}
         </ul>
     {% endif %}
